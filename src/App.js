@@ -4,8 +4,6 @@ import './styles.css';
 
 import api from './services/api';
 
-
-
 function App() {
 
   const [input,setInput] = useState('');
@@ -30,7 +28,6 @@ function App() {
       setInput('')
 
     }
-
   }
 
   return (
